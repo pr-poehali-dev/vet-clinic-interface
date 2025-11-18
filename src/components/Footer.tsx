@@ -19,7 +19,7 @@ export default function Footer() {
               Современная ветеринарная помощь для всех видов животных, включая экзотических.
             </p>
             <div className="flex gap-3">
-              <a href="tel:+79001234567" className="w-9 h-9 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+              <a href="tel:+74951234567" className="w-9 h-9 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
                 <Icon name="Phone" size={18} />
               </a>
               <a href="mailto:info@vetclinic.ru" className="w-9 h-9 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
@@ -43,11 +43,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <Icon name="MapPin" size={16} className="mt-0.5 text-primary" />
-                <span>г. Москва, ул. Примерная, д. 123</span>
+                <span>г. Москва, ул. Ветеринарная, д. 15</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Icon name="Phone" size={16} className="text-primary" />
-                <a href="tel:+79001234567" className="hover:text-primary transition-colors">+7 900 123-45-67</a>
+                <a href="tel:+74951234567" className="hover:text-primary transition-colors">+7 (495) 123-45-67</a>
               </li>
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Icon name="Mail" size={16} className="text-primary" />
@@ -59,21 +59,26 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Режим работы</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Пн-Пт: 9:00 - 21:00</li>
-              <li>Сб-Вс: 10:00 - 19:00</li>
-              <li className="pt-2 text-primary font-medium">Круглосуточная помощь</li>
+              <li className="font-semibold text-foreground">Круглосуточно 24/7</li>
+              <li>Без выходных</li>
+              <li className="pt-2 text-primary font-medium">Экстренная помощь</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-muted-foreground">
-              © 2024 ВетКлиника. Все права защищены.
-            </p>
+            <div className="text-center md:text-left">
+              <p className="text-sm text-muted-foreground">
+                © 2025 ВетКлиника. Все права защищены.
+              </p>
+              <p className="text-xs text-muted-foreground mt-1">
+                ООО "Ветеринарная клиника" • ИНН 7701234567
+              </p>
+            </div>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <Icon name="FileCheck" size={16} className="text-primary" />
-              <span>Лицензия № ЛО-77-01-123456 от 01.01.2024</span>
+              <span>Лицензия № ЛО-77-01-020123 от 15.03.2020</span>
             </div>
           </div>
         </div>

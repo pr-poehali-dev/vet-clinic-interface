@@ -1,3 +1,12 @@
+import Home from './Home';
+
+const Index = () => {
+  return <Home />;
+};
+
+export default Index;
+
+/*
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -8,7 +17,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import Icon from "@/components/ui/icon";
 import { useState } from "react";
 
-const Index = () => {
+const IndexOld = () => {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
