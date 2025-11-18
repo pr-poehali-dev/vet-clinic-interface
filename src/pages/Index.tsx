@@ -13,10 +13,6 @@ const Index = () => {
     name: "",
     phone: "",
     email: "",
-    petType: "",
-    service: "",
-    doctor: "",
-    date: "",
     message: ""
   });
 
